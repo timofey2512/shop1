@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Магазин футболок</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <img id="gift-1" src="images/podarok.png" width="100px">
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close">&times;</span>
+            <p>Вам выдан купон на скидку 10%</p>
+        </div>
+    </div>
+    <header>
+        <span>
+            <h1 class="animate__animated animate__bounce">Футболки с принтами</h1>
+        </span>
+        <span class="price">
+            499 <sup>руб.</sup>
+        </span><br>
+        <span class="why">почему так дёшево?</span>
+
+        <section class="header-images">
+            <div class="foto-1">
+                <img src="images/sale.png" width="100px">
+                <h5>Низкие цены</h5>
+            </div>
+            <div class="foto-2">
+                <img src="images/gruzovik.png" width="80px">
+                <h5>Доставки по всей России</h5>
+            </div>
+            <div class="foto-3">
+                <img src="images/hit.png" width="65px">
+                <h5>Только хиты</h5>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <div class="main-text">
+            <h2>ФУТБОЛКИ</h2>
+            <span>100% хлопок</span>
+        </div>
+        <div class="main-items animate__animated animate__lightSpeedInRight">
+            <div class="main-item">
+                <img onmouseover='console.log("Продаётся футболка:")' src="images/photo.png" height="300"><br>
+                <span class="item-name">Футболка</span><br>
+                <span class="item-price">499 Р</span><br>
+                <button onclick='alert("Добавили в заказ:\n1 \"чёрная\" футболка")'>
+                    Добавить в заказ
+                </button>
+            </div>
+            <div class="main-item">
+                <img src="images/photo_1.png" height="300"><br>
+                <span class="item-name">Футболка</span><br>
+                <span class="item-price">499 Р</span><br>
+                <button onclick='alert("Добавили в заказ:\n1 \"белая\" футболка")'>
+                    Добавить в заказ
+                </button>
+            </div>
+        </div>
+        <span class="how">Как выбрать размер?</span>
+        <section class="line-blue1">
+
+
+            <div class="foto-tshirt">
+                <img src="images/photo2.png" width="180">
+                <span class="blue">
+                    Футболка<br>
+                    299<sup>Р</sup>
+                </span><br>
+                <span class="button-blue">
+                    <button>
+                        Добавить в заказ
+                    </button>
+                </span>
+            </div>
+
+
+
+            <div class="foto-tshirt">
+                <img src="images/photo2.png" width="180">
+                <span class="blue">
+                    Футболка<br>
+                    299<sup>Р</sup>
+                </span><br>
+                <span class="button-blue">
+                    <button>
+                        Добавить в заказ
+                    </button>
+                </span>
+
+            </div>
+
+            <div class="foto-tshirt">
+                <img src="images/photo2.png" width="180">
+                <span class="blue">
+                    Футболка<br>
+                    299<sup>Р</sup>
+                </span><br>
+                <span class="button-blue">
+                    <button>
+                        Добавить в заказ
+                    </button>
+                </span>
+            </div>
+
+        </section><br>
+        <section class="line-blue1">
+
+
+            <div class="foto-tshirt">
+                <img src="images/photo2.png" width="180">
+                <span class="blue">
+                    Футболка<br>
+                    299<sup>Р</sup>
+                </span><br>
+                <span class="button-blue">
+                    <button>
+                        Добавить в заказ
+                    </button>
+                </span>
+            </div>
+
+
+
+            <div class="foto-tshirt">
+                <img src="images/photo2.png" width="180">
+                <span class="blue">
+                    Футболка<br>
+                    299<sup>Р</sup>
+                </span><br>
+                <span class="button-blue">
+                    <button>
+                        Добавить в заказ
+                    </button>
+                </span>
+
+            </div>
+
+            <div class="foto-tshirt">
+                <img src="images/photo2.png" width="180">
+                <span class="blue">
+                    Футболка<br>
+                    299<sup>Р</sup>
+                </span><br>
+                <span class="button-blue">
+                    <button>
+                        Добавить в заказ
+                    </button>
+                </span>
+            </div>
+        </section>
+        <section class="kupon animate__animated animate__backInDown wow">
+            <div class="kupon-text">
+                <span class="present">
+                    РОЗЫГРЫШ<br>
+                    10 000
+                    <sup>руб.</sup>
+                </span>
+                <br>
+                <span class="accent">
+                    Среди обладателей<br>
+                    купонов
+                </span><br>
+                <span class="gift">
+                    Вечером 1 июня команда разыграет приз в прямом эфире!
+                </span>
+            </div>
+            <div class="kupon-image">
+                <img src="images/money.jpg" width="200" height="200">
+            </div>
+        </section>
+        <section class="form">
+            <div class="callme">
+                <form class="thirst" action="action-page.php">
+                    <fieldset>
+                        <legend>Оформление заказа</legend>
+                        <label>
+                            <span class="label-text">Имя</span>
+                            <input class="message-input" type="text" name="username" required>
+                        </label>
+                        <label>
+                            <span class="label-text">Фамилия</span>
+                            <input class="message-input" type="text" name="usersurname" required>
+                        </label>
+                        <label>
+                            <span class="label-text">Электронная почта</span>
+                            <input class="message-input" type="email" name="useremail" required>
+                        </label>
+                        <label>
+                            <span class="label-text">Телефон</span>
+                            <input class="message-input" type="text" name="phone" required>
+                        </label>
+                        <span class="online">
+                            <a href="https://online.sberbank.ru/?ysclid=l0r40u1di2">Оплата онлайн</a>
+                        </span>
+                        <button type="submit">Перейти к заказу</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <img src="images/tp.png" class="helper" id="helper" onclick="print_contact()" width="80px">
+        <div id="myModal-tp" class="modal">
+            <div class="modal-content">
+                <span class="close" id="close-tp">&times;</span>
+                <p>Техподдержка</p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
